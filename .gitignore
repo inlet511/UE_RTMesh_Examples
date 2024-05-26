@@ -7,6 +7,9 @@
 *.o
 *.obj
 
+# don't ignore root directory obj files
+!/*.obj
+
 # Precompiled Headers
 *.gch
 *.pch
